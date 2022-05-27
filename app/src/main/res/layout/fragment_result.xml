@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/blue_light"
+    android:orientation="vertical"
+    tools:context=".fragment.ResultFragment">
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_your_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="You"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/tv_meName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Me"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="100%"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Can you choose some one better"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_try_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:backgroundTint="@color/bluee"
+        android:padding="10dp"
+        android:text="Try again"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:layout_marginTop="100dp"
+        app:cornerRadius="50dp" />
+</LinearLayout>
